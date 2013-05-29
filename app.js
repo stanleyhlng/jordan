@@ -1,6 +1,7 @@
 (function(){
-    var app;
+    var app, counter, x;
     
-    app.startup = function(){
+    app.init = function(){
+        console.log("Application Initializing");
     };
 })();
